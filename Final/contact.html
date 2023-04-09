@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <style>
+        #container-contact {
+            background-color: #fff8ed;
+            padding-bottom: 50px;
+        }
+
+        .container_header-title {
+            text-transform: uppercase;
+            font-size: 50px;
+            color: #fff;
+            text-shadow: 5px 3px 0px #3b2037;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #contact-form-header {
+            background-color: #d1c1ef;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 28px 0px;
+            box-shadow: 0px 1px 4px #6754548f;
+            font-weight: 600;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+        }
+
+        #contact-form-header-title {
+            text-transform: uppercase;
+            font-size: 3rem;
+            line-height: 3rem;
+        }
+
+        #contact-form-header-desc {
+            margin-top: 8px;
+            font-size: 1.4rem;
+        }
+
+        .container_header-desc {
+            margin-block-end: 25px;
+            font-size: 1.5rem;
+        }
+
+        .container_header {
+            display: flex;
+            padding: 5px;
+            flex-direction: column;
+            align-items: center;
+            background-color: #d1c1ef;
+            margin: 0;
+        }
+
+        .wrapper-body {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .body {
+            width: 800px;
+            max-width: calc(100%-40px);
+        }
+
+        .body-top {
+            min-height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #d1c1ef;
+            padding: 20px 0px;
+            border-radius: 20px;
+            border: 1.75px solid #000;
+            position: relative;
+            font-weight: 600;
+        }
+
+        .body-top--wrapper-icon {
+            position: absolute;
+            font-size: 2rem;
+            left: 0;
+            margin-left: 40px;
+        }
+
+        .body-top--phone {
+            text-align: center;
+            font-size: 1.2rem;
+        }
+
+        .body-top--phone-text {
+            margin-block-end: 8px;
+            font-size: 1.9rem;
+            font-weight: 400;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .body-top--phone-number {
+            margin-top: 4px;
+        }
+
+        .body-mid {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            background-color: #d1c1ef;
+            padding: 16px 0px;
+            border-radius: 20px;
+            border: 1.75px solid #000;
+            margin-bottom: 30px;
+        }
+
+        .body-mid--wrapper-icon {
+            position: absolute;
+            font-size: 2rem;
+            top: 10px;
+            left: 40px;
+        }
+
+        .body-mid-header {
+            font-size: 1.9rem;
+            font-weight: 400;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .body-mid--wrapper-title,
+        .body-mid--wrapper-feedback,
+        .body-mid--wrapper-email,
+        .body-mid--wrapper-name {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 16px;
+            width: 80%;
+            font-size: 1.2rem;
+        }
+
+        .body-mid--wrapper-email-label,
+        .body-mid--wrapper-title-label,
+        .body-mid--wrapper-feedback-label,
+        .body-mid--wrapper-name-label {
+            font-size: 1.2rem;
+            color: #111;
+        }
+
+        .body-mid--wrapper-email-input,
+        .body-mid--wrapper-title-input,
+        .body-mid--wrapper-feedback-input,
+        .body-mid--wrapper-name-input {
+            margin-top: 4px;
+            border: 1px solid #000;
+            border-radius: 20px;
+            font-size: 1.4rem;
+            padding: 4px 10px;
+            outline: none;
+            width: 100%;
+            min-height: 60px;
+        }
+
+        .body-mid--wrapper-feedback-input {
+            padding: 6px 10px;
+        }
+
+        .body-mid--wrapper-feedback-button {
+            min-height: 50px;
+            min-width: 150px;
+            margin-top: 14px;
+            font-weight: 600;
+            background-color: #FFDEB4;
+            color: #000;
+            border-radius: 15px;
+            padding: 8px 40px;
+            font-size: 1.2rem;
+            border: none;
+            cursor: pointer;
+        }
+
+        #header {
+            position: unset;
+        }
+
+        .fa-phone,
+        .fa-comments {
+            font-size: 70px;
+            color: #000;
+        }
+
+        .footer-left {
+            border-right: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <header id="header">
+            <nav class="navbar">
+                <div class="grid">
+                    <ul class="navbar__login">
+                        <li class="navbar__login-item">
+                            <button class="navbar__login-item--login js-btn"><i
+                                    class="fa-solid fa-circle-user"></i></button>
+                        </li>
+                        <li class="navbar__login-item">
+                            <div class="navbar__login-item--sign-up js-btn_signIn">
+                                Đăng ký
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="search">
+                <div class="grid">
+                    <div class="item_Search">
+                        <div class="search__left">
+                            <div class="search__menu-vertical">
+                                <button class="btn search__menu-vertical--icon js-menu"><i
+                                        class="fa-solid fa-bars"></i></button>
+                            </div>
+                            <div class="search__logo">
+                                <img src="assets/img/logo.png" alt="">
+                            </div>
+                        </div>
+                        <div class="search__item">
+                            <input class="item--input" placeholder="Search..." type="text">
+                            <a class="item--icon-search"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </div>
+                        <div class="search__contact">
+                            <a href="https://instagram.com/beautyreviewblog.vn?igshid=ZDdkNTZiNTM=" target="_blank" class="contact--ig"><i class=" fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100091420404297" target="_blank" class="contact--fb"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/Beauty_xinchao" target="_blank" class="contact--twitter"><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href="mailto:beautyreviewblog.vn@gmail.com" target="_blank" class="contact--gmail"><i class="fa-solid fa-envelope"></i></a>
+                            <a href="https://www.tiktok.com/@beaty_xinchao?_t=8bLUqdWV3Jq&_r=1
+                            " target="_blank" class="contact--tiktok"><i class="fa-brands fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-horizontal">
+                <ul class="menu__dad">
+                    <a class="menu__dad-item" href="index.html">TRANG CHỦ</a>
+                    <a class="menu__dad-item" href="list-SP.html">SẢN PHẨM</a>
+                  
+                    <a class="menu__dad-item" href="about_us.html">GIỚI THIỆU</a>
+                    <a class="home menu__dad-item" href="contact.html"><strong>LIÊN HỆ</strong> </a>
+
+                </ul>
+
+            </div>
+
+        </header>
+
+        <div id="container-contact">
+            <div class="container_header">
+                <h1 class="container_header-title">contact us</h1>
+                <div class="container_header-desc">Liên hệ chúng tôi nếu bạn cần tư vấn hoặc trợ giúp</div>
+            </div>
+            <div class="wrapper-body">
+                <div class="body">
+                    <div class="body-top">
+                        <div class="body-top--wrapper-icon"> <a href="tel:0127894561"> <i class="fa-solid fa-phone"></i></a></div>
+                        <div class="body-top--phone">
+                            <div class="body-top--phone-text">
+                                <h2> Gọi cho chúng tôi</h2>
+                            </div>
+                            <label class="body-top--phone-number">0127894561</label>
+                        </div>
+                    </div>
+
+                    <form class="body-mid">
+                        <div class="body-mid--wrapper-icon"><a href="mailto:beautyreviewblog.vn@gmail.com "> <i class="fa-solid fa-comments"></i></a></div>
+                        <div class="body-mid-header">
+                            <h2>Nhắn cho chúng tôi</h2>
+                        </div>
+
+                        <div class="body-mid--wrapper-name">
+                            <label for="name" class="body-mid--wrapper-name-label">Tên của bạn là gì?</label>
+                            <input type="text" class="body-mid--wrapper-name-input" id="name" />
+                        </div>
+
+                        <div class="body-mid--wrapper-email">
+                            <label for="email" class="body-mid--wrapper-email-label">E-mail của bạn là gì?</label>
+                            <input type="email" class="body-mid--wrapper-email-input" id="email" />
+                        </div>
+
+                        <div class="body-mid--wrapper-title">
+                            <label for="title" class="body-mid--wrapper-title-label">Tiêu đề</label>
+                            <input type="text" class="body-mid--wrapper-title-input" id="title" />
+                        </div>
+
+                        <div class="body-mid--wrapper-feedback">
+                            <label for="feedback" class="body-mid--wrapper-feedback-label">Vấn đề của bạn là gì?</label>
+                            <textarea rows="5" cols="70" class="body-mid--wrapper-feedback-input"
+                                id="feedback"></textarea>
+                            <button class="body-mid--wrapper-feedback-button" type="submit">Gửi</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer">
+            <div class="grid">
+                <div class="footer-item">
+                    <div class="footer-left">
+                        <div class="footer-left__logo">
+                            <img src="assets/img/logo.png">
+                        </div>
+                        <div class="footer-left__info">
+                            <ul class="footer-left__info-list">
+                                <div class="footer-left__info-list--item">
+                                    <a class="item" href=""> <i class="fa-brands fa-instagram"></i></a>
+                                    <p>Instagram</p>
+                                </div>
+                                <div class="footer-left__info-list--item">
+                                    <a class="item" href=""><i class="fa-brands fa-facebook"></i></a>
+                                    <p>Facebook</p>
+                                </div>
+                                <div class="footer-left__info-list--item">
+                                    <a class="item" href=""><i class="fa-solid fa-envelope"></i></a>
+                                    <p>Email</p>
+                                </div>
+                                <div class="footer-left__info-list--item">
+                                    <a class="item" href=""><i class="fa-brands fa-tiktok"></i> </a>
+                                    <p>TikTok</p>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="footer-left__Quick">
+                            <div class="footer-left__Quick--item">
+                                <h3>Quick Link</h3>
+                                <p>Mackeup</p>
+                                <p>Beauty</p>
+                                <p>Style</p>
+                                <p>Wellness</p>
+                            </div>
+                            <div class="footer-left__Quick--item">
+                                <h3>Quick Link</h3>
+                                <p>Shop</p>
+                                <p>Eat clean</p>
+                                <p>News</p>
+
+                            </div>
+                            <div class="footer-left__Quick--item">
+                                <h3>Quick Link</h3>
+                                <p>Portfolio</p>
+                                <p>About</p>
+                                <p>Press</p>
+                                <p>Contact</p>
+                            </div>
+                        </div>
+                        <div class="footer-left__slogan">
+                            <h2>THERE IS CERTAINLY NO ABSOLUTE STANDARD OF BEAUTY. THAT PRECISELY IS WHAT MAKES ITS
+                                PURSUIT
+                                SO INTERESTING.</h2>
+                        </div>
+                        <hr>
+                        <div class="footer-left__end">
+                            <div class="footer-left__end-left">
+                                <p> <strong>@2023Beauty. All right reserved</strong></p>
+                            </div>
+                            <div class="footer-left__end-right">
+                                <p> <strong>Back to Top</strong></p>
+                                <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <div class="menuJS js-menuJs">
+        <div class="menuJs_icon-close">
+            <a href=""><i class="fa-sharp fa-solid fa-xmark"></i></a>
+        </div>
+        <div class="grid">
+            <div class="menu js-menu-container">
+
+				<div class="menu-vertical">
+					<div class="menu-vertical__item">
+						<a href="Skin-Care.html" class="menu__item--content">Chăm Sóc Da</a>
+					</div>
+					<div class="menu-vertical__item">
+						<a href="makeup.html" class="menu__item--content">Trang Điểm</a>
+					</div>
+					<div class="menu-vertical__item">
+						<a href="body_care.html" class="menu__item--content">Chăm Sóc Cơ Thể</a>
+					</div>
+					<div class="menu-vertical__item">
+						<a href="hair_care.html" class="menu__item--content">Chăm Sóc Tóc</a>
+					</div>
+					<div class="menu-vertical__item">
+						<a href="Perfume.html" class="menu__item--content">Nước Hoa</a>
+					</div>
+				
+
+				</div>
+			</div>
+        </div>
+    </div>
+
+
+    <div class="login js-login">
+
+        <div class="from-login">
+            <div class="from-close">
+                <a href=""><i class="fa-sharp fa-solid fa-xmark"></i></a>
+            </div>
+            <h2>ĐĂNG NHẬP</h2>
+            <br>
+            <form method="from-login__post">
+                <div class="from-login__post--txt_field">
+                    <label for="uname"><b>E-mail</b></label>
+                    <input type="text" placeholder="Hãy nhập E-mail của bạn..." name="uname" required>
+                </div>
+                <div class="txt_field">
+                    <label for="psw"><b>Mật Khẩu</b></label>
+                    <input type="password" placeholder="Hãy nhập mật khẩu của bạn..." name="psw" required>
+                </div>
+                <div class="from-login__post--submit">
+                    <button type="submit">Đăng Nhập</button>
+                </div>
+                <br>
+
+                <div class="from-login__post--line"></div>
+                <div class="from-login__post--or">Hoặc</div>
+                <div class="from-social__login">
+
+                    <a class="from-social__login--facebook" href="#"><i class="fa-brands fa-facebook"></i>
+
+                    </a>
+                    <div class="div_from-social__login--google">
+                        <a class="from-social__login--google" href="#">
+                            <i class="fa-brands fa-google"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="signup_link">
+                    Bạn chưa có tài khoản? <a class="js-btnDK" href="#">Đăng ký</a> ngay
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="signIn js-signIn">
+
+        <div class="from-signIn">
+            <div class="from-close">
+                <a href=""><i class="fa-sharp fa-solid fa-xmark"></i></a>
+
+            </div>
+            <div>
+                <h2>ĐĂNG KÝ</h2>
+            </div>
+            <form method="from-signIn__post">
+                <div class="txt_field">
+                    <label for="uname"><b>Họ</b></label>
+                    <input type="text" placeholder="Hãy nhập họ của bạn..." name="uname" required>
+                </div>
+                <div class="txt_field">
+                    <label for="uname"><b>Tên</b></label>
+                    <input type="text" placeholder="Hãy nhập tên của bạn..." name="uname" required>
+                </div>
+                <div class="txt_field">
+                    <label for="uname"><b>Địa Chỉ E-mail</b></label>
+                    <input type="text" placeholder="Hãy nhập E-mail của bạn..." name="uname" required>
+                </div>
+                <div class="txt_field">
+                    <label for="psw"><b>Mật Khẩu</b></label>
+                    <input type="password" placeholder="Hãy nhập mật khẩu của bạn..." name="psw" required>
+                </div>
+                <div class="from-signIn--or_btn">
+                    <div class="list-gender txt_field">
+                        <label for="gender">Giới Tính</label>
+                        <select id="country" name="country">
+                            <option value="male">Nam</option>
+                            <option value="female">Nữ</option>
+                            <option value="other">Khác</option>
+                        </select>
+                    </div>
+                    <div class="from-login__post--register">
+                        <button type="submit">Đăng Ký</button>
+                    </div>
+                </div>
+                <br>
+                <div class="from-login__post--line"></div>
+                <div class="from-login__post--or">Hoặc</div>
+                <div class="from-social__login">
+
+                    <a class="from-social__login--facebook" href="#"><i class="fa-brands fa-facebook"></i>
+
+                    </a>
+                    <div class="div_from-social__login--google">
+                        <a class="from-social__login--google" href="#">
+                            <i class="fa-brands fa-google"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+
+
+    <script>
+        const menuBtn = document.querySelector('.js-menu')
+        const menu = document.querySelector('.js-menuJs')
+        const menuClose = document.querySelector('.js-menu-container')
+        const Close = document.querySelector('.menuJs_icon-close')
+        function showMenu() {
+            menu.classList.add('open')
+
+        }
+
+        function closeMenu() {
+            menu.classList.remove('open')
+
+        }
+
+        menuBtn.addEventListener('click', showMenu)
+
+
+        Close.addEventListener('click', closeMenu)
+        menu.addEventListener('click', closeMenu)
+        menuClose.addEventListener('click', function (event) {
+            event.stopPropagation()
+        })
+
+    </script>
+
+    <script>
+        const loginBtn = document.querySelector('.js-btn')
+        const login = document.querySelector('.js-login')
+        function showLogin() {
+            login.classList.add('open-from')
+        }
+        loginBtn.addEventListener('click', showLogin)
+
+    </script>
+
+    <script>
+        const signinBtn = document.querySelector('.js-btn_signIn')
+        const signIn = document.querySelector('.js-signIn')
+        function showLogin() {
+            signIn.classList.add('open-signIn')
+        }
+        signinBtn.addEventListener('click', showLogin)
+    </script>
+    <script>
+        const dkBtn = document.querySelector('.js-btnDK')
+        const Dk = document.querySelector('.js-signIn')
+        function showLogin() {
+            Dk.classList.add('open-signIn')
+        }
+        dkBtn.addEventListener('click', showLogin)
+    </script>
+
+</body>
+
+</html>
