@@ -11,7 +11,7 @@ form.addEventListener("keyup", function(event) {
     }
 });
 
-function stepSetSinhVien() {
+function  stepSetKhachHangFeedback() {
     var ten = $.trim($("input[name='txtHoTen']").val());
     if (ten == "") {
         alert("VUI LÒNG NHẬP HỌ TÊN CỦA BẠN");
