@@ -142,16 +142,23 @@
         }
 
         .body-mid--wrapper-title,
-        .body-mid--wrapper-feedback,
+
         .body-mid--wrapper-email,
+        .body-mid--wrapper-feedback,
         .body-mid--wrapper-name {
             display: flex;
             flex-direction: column;
-            align-items: center;
+
             margin-top: 16px;
             width: 80%;
             font-size: 1.2rem;
         }
+
+        .body-mid--wrapper-feedback {
+            align-items: normal;
+        }
+
+       
 
         .body-mid--wrapper-email-label,
         .body-mid--wrapper-title-label,
@@ -163,19 +170,33 @@
 
         .body-mid--wrapper-email-input,
         .body-mid--wrapper-title-input,
-        .body-mid--wrapper-feedback-input,
+        .body-mid--wrapper-email-input,
         .body-mid--wrapper-name-input {
             margin-top: 4px;
             border: 1px solid #000;
             border-radius: 20px;
-            font-size: 1.4rem;
+            font-size: 1.2rem;
             padding: 4px 10px;
             outline: none;
             width: 100%;
             min-height: 60px;
         }
-
+        .body-mid--wrapper-feedback--item{
+            min-height: 200px;
+            min-width: 100%;
+            border-radius: 20px;
+            border: 1px solid #333;
+            background-color: #fff;
+        }
+        .body-mid--wrapper-feedback--item input{
+            margin: 10px;
+            outline: none;
+            border: none;
+            background-color: transparent;
+         
+        }
         .body-mid--wrapper-feedback-input {
+            width: 100%;
             padding: 6px 10px;
         }
 
@@ -207,6 +228,8 @@
             border-right: none;
         }
     </style>
+    <script src="https://fituef.github.io/mos/js/jquery-3.3.1.min.js"></script>
+    <script src="https://fituef.github.io/mos/js/jquery-google-sheet-to-json.min.js"></script>
 </head>
 
 <body>
@@ -298,32 +321,38 @@
                         </div>
 
                         <div class="body-mid--wrapper-name">
-                            <label for="name" class="body-mid--wrapper-name-label">Tên của bạn là gì?</label>
-                            <input type="text" class="body-mid--wrapper-name-input" id="name" />
+                            <label for="name" class="body-mid--wrapper-name-label">Tên của bạn là gì</label>
+                            <input type="text" class="body-mid--wrapper-name-input" placeholder="Nhập đủ họ tên của bạn"
+                                name="txtname" required>
                         </div>
 
                         <div class="body-mid--wrapper-email">
-                            <label for="email" class="body-mid--wrapper-email-label">E-mail của bạn là gì?</label>
-                            <input type="email" class="body-mid--wrapper-email-input" id="email" />
+                            <label for="email">E-mail của bạn là gì?</label>
+                            <input type="email" class="body-mid--wrapper-email-input"
+                                placeholder="Hãy nhập E-mail của bạn..." name="txtEmail" required>
                         </div>
 
                         <div class="body-mid--wrapper-title">
                             <label for="title" class="body-mid--wrapper-title-label">Tiêu đề</label>
-                            <input type="text" class="body-mid--wrapper-title-input" id="title" />
+                            <input type="text" class="body-mid--wrapper-title-input"
+                                placeholder="Tiêu đề bạn muốn đề cập?" name="txtTitel" required>
                         </div>
 
                         <div class="body-mid--wrapper-feedback">
                             <label for="feedback" class="body-mid--wrapper-feedback-label">Vấn đề của bạn là gì?</label>
-                            <textarea rows="5" cols="70" class="body-mid--wrapper-feedback-input"
-                                id="feedback"></textarea>
-                            <button class="body-mid--wrapper-feedback-button" type="submit">Gửi</button>
+                            <div class="body-mid--wrapper-feedback--item">
+                                <input rows="5" cols="70" class="body-mid--wrapper-feedback-input"
+                                    placeholder="Cho tôi biết bạn gặp vấn đề gì?" name="txtTitel" required>
+                            </div>
                         </div>
+                        <button class="body-mid--wrapper-feedback-button" type="submit">Gửi</button>
+
 
                     </form>
                 </div>
             </div>
         </div>
-        
+
         <footer id="footer">
             <hr>
             <div class="grid">
@@ -335,19 +364,23 @@
                         <div class="footer-left__info">
                             <ul class="footer-left__info-list">
                                 <div class="footer-left__info-list--item">
-                                    <a class="item" href="https://instagram.com/beautyreviewblog.vn?igshid=ZDdkNTZiNTM=" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                    <a class="item" href="https://instagram.com/beautyreviewblog.vn?igshid=ZDdkNTZiNTM="
+                                        target="_blank"><i class="fa-brands fa-instagram"></i></a>
                                     <p>Instagram</p>
                                 </div>
                                 <div class="footer-left__info-list--item">
-                                    <a class="item" href="https://www.facebook.com/profile.php?id=100091420404297" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                                    <a class="item" href="https://www.facebook.com/profile.php?id=100091420404297"
+                                        target="_blank"><i class="fa-brands fa-facebook"></i></a>
                                     <p>Facebook</p>
                                 </div>
                                 <div class="footer-left__info-list--item">
-                                    <a class="item" href="mailto:beautyreviewblog.vn@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                                    <a class="item" href="mailto:beautyreviewblog.vn@gmail.com" target="_blank"><i
+                                            class="fa-solid fa-envelope"></i></a>
                                     <p>Email</p>
                                 </div>
                                 <div class="footer-left__info-list--item">
-                                    <a class="item" href="https://www.tiktok.com/@beaty_xinchao?_t=8bLUqdWV3Jq&_r=1" target="_blank"><i class="fa-brands fa-tiktok"></i> </a>
+                                    <a class="item" href="https://www.tiktok.com/@beaty_xinchao?_t=8bLUqdWV3Jq&_r=1"
+                                        target="_blank"><i class="fa-brands fa-tiktok"></i> </a>
                                     <p>TikTok</p>
                                 </div>
                             </ul>
@@ -481,27 +514,28 @@
             <div>
                 <h2>ĐĂNG KÝ</h2>
             </div>
-            <form method="from-signIn__post" action="https://script.google.com/macros/s/AKfycbxyCxJRJCMdXIiPP-2vTePa_YL69prSOrM6xUIzKwZhvvQfA7SB_g_ccJ_rAMSGW_s/exec">
+            <form method="from-signIn__post"
+                action="https://script.google.com/macros/s/AKfycbxyCxJRJCMdXIiPP-2vTePa_YL69prSOrM6xUIzKwZhvvQfA7SB_g_ccJ_rAMSGW_s/exec">
                 <div class="txt_field">
                     <label for="uname"><b>Họ</b></label>
-                    <input type="text" placeholder="Hãy nhập họ của bạn..." name="uname" required>
+                    <input type="text" placeholder="Hãy nhập họ của bạn..." name="txtHo" required>
                 </div>
                 <div class="txt_field">
                     <label for="uname"><b>Tên</b></label>
-                    <input type="text" placeholder="Hãy nhập tên của bạn..." name="uname" required>
+                    <input type="text" placeholder="Hãy nhập tên của bạn..." name="txtTen" required>
                 </div>
                 <div class="txt_field">
                     <label for="uname"><b>Địa Chỉ E-mail</b></label>
-                    <input type="text" placeholder="Hãy nhập E-mail của bạn..." name="uname" required>
+                    <input type="text" placeholder="Hãy nhập E-mail của bạn..." name="txtEmail" required>
                 </div>
                 <div class="txt_field">
                     <label for="psw"><b>Mật Khẩu</b></label>
-                    <input type="password" placeholder="Hãy nhập mật khẩu của bạn..." name="psw" required>
+                    <input type="password" placeholder="Hãy nhập mật khẩu của bạn..." name="pass" required>
                 </div>
                 <div class="from-signIn--or_btn">
                     <div class="list-gender txt_field">
                         <label for="gender">Giới Tính</label>
-                        <select id="country" name="country">
+                        <select id="country" name="txtGioiTinh">
                             <option value="male">Nam</option>
                             <option value="female">Nữ</option>
                             <option value="other">Khác</option>
@@ -531,6 +565,8 @@
         </div>
     </div>
 
+    <script type="text/javascript" src="assets/js/do_get_info.js">
+    </script>
 
     <script>
         const menuBtn = document.querySelector('.js-menu')
