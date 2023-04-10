@@ -383,7 +383,7 @@ color: black;
 /*Footer*/
 #footer {
     background-image: linear-gradient(rgba(222, 202, 238, 0.575), rgba(117, 84, 146, 0.575), rgba(65, 8, 99, 0.575)),
-        url("/assets/img/trang_chu/footer.jpeg");
+        url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/footer.jpeg');
     background-size: 100%;
 
     
