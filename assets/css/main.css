@@ -279,7 +279,7 @@ ul.menu__dad a:hover::after {
     }
 
     100% {
-        background-image: url(https://github.com/Web-group6/Beauty_group6/blob/master/assets/img/slideHome/5.png);
+      background-image: url('https://github.com/Web-group6/Beauty_group6/blob/master/assets/img/slideHome/5.png');
 
     }
 
