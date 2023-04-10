@@ -238,12 +238,12 @@ ul.menu__dad a:hover::after {
 
 @keyframes slide {
     0% {
-        background-image: url('/assets/img/slideHome/11.png');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/slideHome/11.png');
 
     }
 
     20% {
-        background-image: url('/assets/img/slideHome/11.png');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/slideHome//11.png');
 
     }
 
