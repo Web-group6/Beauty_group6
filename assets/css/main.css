@@ -705,48 +705,48 @@ h4 {
 
 @keyframes search__side--img {
     0% {
-        background-image: url('/assets/img/trang_chu/tìm\ kiem.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/t%C3%ACm%20kiem.jpg');
         margin-left: 0;
     }
 
     20% {
-        background-image: url('/assets/img/trang_chu/tìm\ kiem.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/t%C3%ACm%20kiem.jpg');
 
     }
 
     20.001% {
-        background-image: url('/assets/img/trang_chu/tìm\ kiếm\ 1.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/t%C3%ACm%20ki%E1%BA%BFm%201.jpg);
     }
 
     40% {
-        background-image: url('/assets/img/trang_chu/tìm\ kiếm\ 1.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/t%C3%ACm%20ki%E1%BA%BFm%201.jpg');
 
     }
 
     40.001% {
-        background-image: url('/assets/img/trang_chu/tim\ kiem2.jfif');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/image.png');
     }
 
     60% {
-        background-image: url('/assets/img/trang_chu/tim\ kiem2.jfif');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/image.png');
 
     }
 
     60.001% {
-        background-image: url('/assets/img/trang_chu/tim\ kiem3.jfif');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/timkiem3.jpg');
     }
 
     80% {
-        background-image: url('/assets/img/trang_chu/tim\ kiem3.jfif');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/timkiem3.jpg');
 
     }
 
     80.001% {
-        background-image: url('/assets/img/trang_chu/tim\ kiem\ 4.jfif');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/timkem4.jpg');
     }
 
     100% {
-        background-image: url('/assets/img/trang_chu/tim\ kiem\ 4.jfif');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/timkem4.jpg');
 
     }
 }
