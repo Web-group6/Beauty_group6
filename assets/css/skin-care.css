@@ -228,48 +228,48 @@ transform: translateX(100%);
 
 @keyframes slide {
     0% {
-        background-image: url('/assets/img/slideSP/slide.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/slideSP/slide.jpg');
         margin-left: 0;
     }
 
     20% {
-        background-image: url('/assets/img/slideSP/slide.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/slideSP/slide.jpg');
 
     }
 
     20.001% {
-        background-image: url('/assets/img/slideSP/silde1.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/slideSP/silde1.jpg');
     }
 
     40% {
-        background-image: url('/assets/img/slideSP/silde1.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/slideSP/silde1.jpg');
 
     }
 
     40.001% {
-        background-image: url('/assets/img/slideSP/silde\ 2.png');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/slideSP/silde%202.png');
     }
 
     60% {
-        background-image: url('/assets/img/slideSP/silde\ 2.png');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/slideSP/silde%202.png');
 
     }
 
     60.001% {
-        background-image: url('/assets/img/slideSP/slide\ 3.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/slideSP/slide%203.jpg');
     }
 
     80% {
-        background-image: url('/assets/img/slideSP/slide\ 3.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/slideSP/slide%203.jpg');
 
     }
 
     80.001% {
-        background-image: url('/assets/img/slideSP/CSD.png');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/slideSP/CSD.png');
     }
 
     100% {
-        background-image: url('/assets/img/slideSP/CSD.png');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/slideSP/CSD.png');
 
     }
 
