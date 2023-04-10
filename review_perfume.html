@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.3.0-web/css/all.min.css">
 
+	<script src="https://fituef.github.io/mos/js/jquery-3.3.1.min.js"></script>
+    <script src="https://fituef.github.io/mos/js/jquery-google-sheet-to-json.min.js"></script>
+
 
 </head>
 <style>
@@ -396,63 +399,67 @@
 	</div>
 	<div class="signIn js-signIn">
 
-		<div class="from-signIn">
-			<div class="from-close">
-				<a href=""><i class="fa-sharp fa-solid fa-xmark"></i></a>
+        <div class="from-signIn">
+            <div class="from-close">
+                <a href=""><i class="fa-sharp fa-solid fa-xmark"></i></a>
 
-			</div>
-			<div>
-				<h2>ĐĂNG KÝ</h2>
-			</div>
-			<form method="from-signIn__post">
-				<div class="txt_field">
-					<label for="uname"><b>Họ</b></label>
-					<input type="text" placeholder="Hãy nhập họ của bạn..." name="uname" required>
-				</div>
-				<div class="txt_field">
-					<label for="uname"><b>Tên</b></label>
-					<input type="text" placeholder="Hãy nhập tên của bạn..." name="uname" required>
-				</div>
-				<div class="txt_field">
-					<label for="uname"><b>Địa Chỉ E-mail</b></label>
-					<input type="text" placeholder="Hãy nhập E-mail của bạn..." name="uname" required>
-				</div>
-				<div class="txt_field">
-					<label for="psw"><b>Mật Khẩu</b></label>
-					<input type="password" placeholder="Hãy nhập mật khẩu của bạn..." name="psw" required>
-				</div>
-				<div class="from-signIn--or_btn">
-					<div class="list-gender txt_field">
-						<label for="gender">Giới Tính</label>
-						<select id="country" name="country">
-							<option value="male">Nam</option>
-							<option value="female">Nữ</option>
-							<option value="other">Khác</option>
-						</select>
-					</div>
-					<div class="from-login__post--register">
-						<button type="submit">Đăng Ký</button>
-					</div>
-				</div>
-				<br>
-				<div class="from-login__post--line"></div>
-				<div class="from-login__post--or">Hoặc</div>
-				<div class="from-social__login">
+            </div>
+            <div>
+                <h2>ĐĂNG KÝ</h2>
+            </div>
+            <form method="from-signIn__post"
+                action="https://script.google.com/macros/s/AKfycbxyCxJRJCMdXIiPP-2vTePa_YL69prSOrM6xUIzKwZhvvQfA7SB_g_ccJ_rAMSGW_s/exec">
+                <div class="txt_field">
+                    <label for="uname"><b>Họ</b></label>
+                    <input type="text" placeholder="Hãy nhập họ của bạn..." name="txtHo" required>
+                </div>
+                <div class="txt_field">
+                    <label for="uname"><b>Tên</b></label>
+                    <input type="text" placeholder="Hãy nhập tên của bạn..." name="txtTen" required>
+                </div>
+                <div class="txt_field">
+                    <label for="uname"><b>Địa Chỉ E-mail</b></label>
+                    <input type="text" placeholder="Hãy nhập E-mail của bạn..." name="txtEmail" required>
+                </div>
+                <div class="txt_field">
+                    <label for="psw"><b>Mật Khẩu</b></label>
+                    <input type="password" placeholder="Hãy nhập mật khẩu của bạn..." name="pass" required>
+                </div>
+                <div class="from-signIn--or_btn">
+                    <div class="list-gender txt_field">
+                        <label for="gender">Giới Tính</label>
+                        <select id="country" name="txtGioiTinh">
+                            <option value="male">Nam</option>
+                            <option value="female">Nữ</option>
+                            <option value="other">Khác</option>
+                        </select>
+                    </div>
+                    <div class="from-login__post--register">
+                        <button type="submit">Đăng Ký</button>
+                    </div>
+                </div>
+                <br>
+                <div class="from-login__post--line"></div>
+                <div class="from-login__post--or">Hoặc</div>
+                <div class="from-social__login">
 
-					<a class="from-social__login--facebook" href="#"><i class="fa-brands fa-facebook"></i>
+                    <a class="from-social__login--facebook" href="#"><i class="fa-brands fa-facebook"></i>
 
-					</a>
-					<div class="div_from-social__login--google">
-						<a class="from-social__login--google" href="#">
-							<i class="fa-brands fa-google"></i>
-						</a>
-					</div>
-				</div>
+                    </a>
+                    <div class="div_from-social__login--google">
+                        <a class="from-social__login--google" href="#">
+                            <i class="fa-brands fa-google"></i>
+                        </a>
+                    </div>
+                </div>
 
 
-			</form>
-		</div>
-	</div>
+            </form>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets/js/do_get_info.js">
+    </script>
 
 	<div id="fb-root"></div>
 	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v16.0"
