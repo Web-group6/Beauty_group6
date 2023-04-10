@@ -302,45 +302,45 @@ transform: translateX(100%);
 
 @keyframes slide {
     0% {
-        background-image: url('/assets/img/ListSP/slide/1.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/ListSP/slide/1.jpg');
 
     }
 
     20% {
-        background-image: url('/assets/img/ListSP/slide/1.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/ListSP/slide/1.jpg');
 
     }
 
     20.001% {
-        background-image: url('/assets/img/ListSP/slide/2.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/ListSP/slide/2.jpg');
     }
 
     40% {
-        background-image: url('/assets/img/ListSP/slide/2.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/ListSP/slide/2.jpg');
 
     }
 
     40.001% {
-        background-image: url('/assets/img/ListSP/slide/3.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/ListSP/slide/3.jpg');
     }
     60% {
-        background-image: url('/assets/img/ListSP/slide/3.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/ListSP/slide/3.jpg');
 
     }
 
     60.001% {
-        background-image: url('/assets/img/ListSP/slide/4.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/ListSP/slide/4.jpg');
     }
     80% {
-        background-image: url('/assets/img/ListSP/slide/4.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/ListSP/slide/4.jpg');
 
     }
 
     80.001% {
-        background-image: url('/assets/img/ListSP/slide/5.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/ListSP/slide/5.jpg');
     }
     100% {
-        background-image: url('/assets/img/ListSP/slide/5.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/ListSP/slide/5.jpg');
 
     }
 
@@ -382,30 +382,30 @@ transform: translateX(100%);
 
 @keyframes slideshow {
     0% {
-        background-image: url('/assets/img/ListSP/slide2/11.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/ListSP/slide/3.jpg');
 
     }
 
     33% {
-        background-image: url('/assets/img/ListSP/slide2/11.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/ListSP/slide/3.jpg');
 
     }
 
     33.001% {
-        background-image: url('/assets/img/ListSP/slide2/22.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/ListSP/slide/4.jpg');
     }
 
     66% {
-        background-image: url('/assets/img/ListSP/slide2/22.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/ListSP/slide/4.jpg');
 
     }
 
     66.001% {
-        background-image: url('/assets/img/ListSP/slide2/33.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/ListSP/slide/1.jpg');
     }
 
     100% {
-        background-image: url('/assets/img/ListSP/slide2/33.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/ListSP/slide/1.jpg');
 
     }
 
