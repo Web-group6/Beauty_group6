@@ -41,7 +41,7 @@
 /*container*/
 #container-form {
     background-image: linear-gradient(rgba(222, 202, 238, 0.575), rgba(117, 84, 146, 0.575), rgba(65, 8, 99, 0.575)),
-    url('/assets/img/form-contact.webp');
+    url('https://raw.githubusercontent.com/Web-group6/Beauty_group6/master/assets/img/form-contact.webp');
     background-size: 100%;
     background-repeat: no-repeat;
     
