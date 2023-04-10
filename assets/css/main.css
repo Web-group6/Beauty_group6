@@ -238,48 +238,48 @@ ul.menu__dad a:hover::after {
 
 @keyframes slide {
     0% {
-        background-image: url('/assets/img/slideHome/11.png');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/slideHome/11.png');
 
     }
 
     20% {
-        background-image: url('/assets/img/slideHome/11.png');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/slideHome/11.png');
 
     }
 
     20.001% {
-        background-image: url('/assets/img/slideHome/22.png');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/slideHome/22.png');
     }
 
     40% {
-        background-image: url('/assets/img/slideHome/22.png');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/slideHome/22.png');
 
     }
 
     40.001% {
-        background-image: url('/assets/img/slideHome/33.png');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/slideHome/33.png');
     }
 
     60% {
-        background-image: url('/assets/img/slideHome/33.png');
+         background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/slideHome/33.png');
 
     }
 
     60.001% {
-        background-image: url('/assets/img/slideHome/4.png');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/slideHome/4.png');
     }
 
     80% {
-        background-image: url('/assets/img/slideHome/4.png');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/slideHome/4.png');
 
     }
 
     80.001% {
-        background-image: url('/assets/img/slideHome/5.png');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/slideHome/5.png');
     }
 
     100% {
-        background-image: url('/assets/img/slideHome/5.png');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/slideHome/5.png');
 
     }
 
@@ -472,7 +472,7 @@ ul.menu__dad a:hover::after {
     padding: 30px 12px 10px 12px;
     background-color: #ffffff;
     background-image: linear-gradient(rgba(83, 79, 79, 0.575), rgba(83, 79, 79, 0.575), rgba(83, 79, 79, 0.575)),
-        url("/assets/img/hot\ makeup.png");
+        url('https://web-group6.github.io/Beauty_group6/assets/img/hot%20makeup.png');
     background-size: 100%;
     background-repeat: repeat-x;
     Background-size: cover;
@@ -487,7 +487,7 @@ ul.menu__dad a:hover::after {
     padding: 30px 12px 10px 12px;
     background-color: #ffffff;
     background-image: linear-gradient(rgba(83, 79, 79, 0.575), rgba(83, 79, 79, 0.575), rgba(83, 79, 79, 0.575)),
-        url("/assets/img/Woman\ day.png");
+        url('https://web-group6.github.io/Beauty_group6/assets/img/Woman%20day.png');
     background-size: 100%;
     background-repeat: repeat-x;
     Background-size: cover;
@@ -502,7 +502,7 @@ ul.menu__dad a:hover::after {
     padding: 30px 12px 10px 12px;
     background-color: #ffffff;
     background-image: linear-gradient(rgba(83, 79, 79, 0.575), rgba(83, 79, 79, 0.575), rgba(83, 79, 79, 0.575)),
-        url("/assets/img/body.png");
+        url('https://web-group6.github.io/Beauty_group6/assets/img/body.png');
     background-size: 100%;
     background-repeat: repeat-x;
     Background-size: cover;
@@ -554,7 +554,7 @@ h4 {
     margin-top: 10px;
     max-width: 210px;
     min-height: 270px;
-    background-image: url("/assets/img/jennie.png");
+    background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/jennie.png');
     background-size: 100%;
     background-repeat: repeat-x;
     Background-size: cover;
@@ -616,7 +616,7 @@ h4 {
     margin-bottom: 10px;
     max-width: 210px;
     min-height: 295px;
-    background-image: url(/assets/img/jisooo.jpg);
+    background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/jisooo.jpg');
     background-size: 100%;
     background-repeat: repeat-x;
     Background-size:c  cover;
@@ -679,7 +679,7 @@ h4 {
 
 .container-search__dad {
     display: flex;
-    flex-wrap: wrap;
+ 
     margin-left: 20px;
 
 }
@@ -688,7 +688,7 @@ h4 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 420px;
+    width: 410px;
     padding-top: 550px;
     animation: search__side--img 15s infinite;
     min-height: 300px;
@@ -705,48 +705,48 @@ h4 {
 
 @keyframes search__side--img {
     0% {
-        background-image: url('/assets/img/trang_chu/tìm\ kiem.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/t%C3%ACm%20kiem.jpg');
         margin-left: 0;
     }
 
     20% {
-        background-image: url('/assets/img/trang_chu/tìm\ kiem.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/t%C3%ACm%20kiem.jpg');
 
     }
 
     20.001% {
-        background-image: url('/assets/img/trang_chu/tìm\ kiếm\ 1.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/t%C3%ACm%20ki%E1%BA%BFm%201.jpg');
     }
 
     40% {
-        background-image: url('/assets/img/trang_chu/tìm\ kiếm\ 1.jpg');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/t%C3%ACm%20ki%E1%BA%BFm%201.jpg');
 
     }
 
     40.001% {
-        background-image: url('/assets/img/trang_chu/tim\ kiem2.jfif');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/timkiem2.jpg');
     }
 
     60% {
-        background-image: url('/assets/img/trang_chu/tim\ kiem2.jfif');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/timkiem2.jpg');
 
     }
 
     60.001% {
-        background-image: url('/assets/img/trang_chu/tim\ kiem3.jfif');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/timkiem3.jpg');
     }
 
     80% {
-        background-image: url('/assets/img/trang_chu/tim\ kiem3.jfif');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/timkiem3.jpg');
 
     }
 
     80.001% {
-        background-image: url('/assets/img/trang_chu/tim\ kiem\ 4.jfif');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/timkem4.jpg');
     }
 
     100% {
-        background-image: url('/assets/img/trang_chu/tim\ kiem\ 4.jfif');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/timkem4.jpg');
 
     }
 }
