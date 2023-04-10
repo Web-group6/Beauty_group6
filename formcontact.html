@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.3.0-web/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="assets/js/script_home.js" defer></script>
+
+
+    <script src="https://fituef.github.io/mos/js/jquery-3.3.1.min.js"></script>
+    <script src="https://fituef.github.io/mos/js/jquery-google-sheet-to-json.min.js"></script>
+
+</head>
+
+<body>
+    <div id="formcontact">
+        <header id="header">
+            <div class="grid">
+                <div class="header__item">
+                    <div class="header__item-left">
+                        <a href="index.html"><img src="assets/img/logo.png" height="90%" alt=""></a>
+                        <h1>Liên hệ</h1>
+                    </div>
+                    <div class="header__item-right">
+                        <b><a href="tel:033688688"><i class="fa-solid fa-phone"></i></a>
+                            Tel: +84 688 688</b>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+        <div id="container-form">
+            <div class="grid">
+                <div class="container__item">
+                    <div class="container__item--left">
+                        <img src="assets/img/logo.png" width="100%" alt="">
+                        <p>Beauty, người bạn đồng hành cùng bạn trên con đường hoàn thiện vẻ đẹp của bản thân.
+                            Hướng tới vẻ đẹp thuần túy của bạn</p>
+                    </div>
+                    <div class="container__item--right">
+                        <form name="form-contact" class="js-showupdate" action="https://script.google.com/macros/s/AKfycbyx7x-osMCPj3n8QEBv0Zwookh8mmswHlnQgA_uw6Yc7dWiR4LRn6wFIqFRq2nMY4xn/exec">
+
+                            <div class="form-contact__header">
+                                <h2>Điền form</h2>
+                            </div>
+
+                            <div class="form-contact__item">
+                                <label for="name" class="form-contact-name-label">Họ tên</label>
+                                <input id="inHoTen" type="text" name="txtHoTen" placeholder="Họ và tên của bạn?"
+                                    class="form-control" required>
+                            </div>
+
+                            <div class="form-contact__item">
+                                <label for="email" class="form-contact-email-label">E-mail</label>
+                                <input id="inEmail" type="email" name="txtEmail" placeholder="Email của bạn..."
+                                    class="form-control" required>
+                            </div>
+                            <div class="form-contact__item">
+                                <label for="phone" class="form-contact-phone-label">Số điện thoại</label>
+                                <input id="inPhone" type="text" maxlength="10" name="txtPhone"
+                                    placeholder="Số điện thoại..." class="form-control" required>
+                            </div>
+                            <div class="form-contact__item">
+                                <label for="txtHoTen" class="form-contact-birthday-label">Ngày sinh</label>
+                                <input id="inBirthday" type="date" min="1999-01-01" max="2007-12-31" name="txtNgaySinh"
+                                    class="form-control" required>
+                            </div>
+
+                            <div class="form-contact__item">
+                                <label for="title" class="form-contact-title-label">Tiêu đề</label>
+                                <input id="inTitle" type="text" name="txtTieude" placeholder="Tiêu đề bạn muốn đề cập?"
+                                    class="form-control" required>
+                            </div>
+                            <div class="form-contact__item">
+                                <label for="title" class="form-contact-feedback-label">Vấn đề của bạn là gì?</label>
+                                <div class="form-contact-feedback-input">
+                                    <input id="inFeedback" type="text" name="txtVande"
+                                        placeholder="Cho tôi biết bạn gặp vấn đề gì?" class="form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="form-contact__button">
+                            <button  class="form-contact__button--btn" onclick="return stepSetSinhVien(); "type="submit">Gửi</button>
+                           
+                        </div>
+                        </form>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    <script type="text/javascript" src="assets/js/info_form.js">
+    </script>
+</body>
+
+</html>
