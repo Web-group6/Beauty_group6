@@ -261,7 +261,7 @@ ul.menu__dad a:hover::after {
     }
 
     60% {
-         background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/slideHome/33.png');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/slideHome/33.png');
 
     }
 
@@ -419,10 +419,12 @@ ul.menu__dad a:hover::after {
     margin-top: 10px;
     margin-right: 20px;
 }
-.item__left-new--frame-1 img:hover{
+
+.item__left-new--frame-1 img:hover {
     border: 3px solid #a681e9;
     cursor: pointer;
 }
+
 .item__left-new--frame-2 {
     min-width: 200px;
     margin-left: 20px;
@@ -434,10 +436,12 @@ ul.menu__dad a:hover::after {
     text-decoration: none;
     color: #000;
 }
-.item__left-new--frame-2 img:hover{
+
+.item__left-new--frame-2 img:hover {
     border: 3px solid #a681e9;
     cursor: pointer;
 }
+
 .frame+.frame {
 
     margin-top: 10px;
@@ -470,48 +474,63 @@ ul.menu__dad a:hover::after {
 .item__left-post--frame1 {
     flex: 1;
     padding: 30px 12px 10px 12px;
-    background-color: #ffffff;
-    background-image: linear-gradient(rgba(83, 79, 79, 0.575), rgba(83, 79, 79, 0.575), rgba(83, 79, 79, 0.575)),
+
+    background-image: 
         url('https://web-group6.github.io/Beauty_group6/assets/img/hot%20makeup.png');
     background-size: 100%;
     background-repeat: repeat-x;
     Background-size: cover;
     text-align: center;
-    color: #fff;
+    color: #fff5f5;
     font-weight: 400;
     text-decoration: none;
+    text-shadow: 2px 3px 0px #1f032a;;
 }
-
+.item__left-post--frame1:hover{
+    background-image: linear-gradient(rgba(83, 79, 79, 0.575), rgba(83, 79, 79, 0.575), rgba(83, 79, 79, 0.575)),
+    url('https://web-group6.github.io/Beauty_group6/assets/img/hot%20makeup.png');
+    border: 3px solid #551a8b;
+}
 .item__left-post--frame2 {
     flex: 1;
     padding: 30px 12px 10px 12px;
-    background-color: #ffffff;
-    background-image: linear-gradient(rgba(83, 79, 79, 0.575), rgba(83, 79, 79, 0.575), rgba(83, 79, 79, 0.575)),
+  
+    background-image:
         url('https://web-group6.github.io/Beauty_group6/assets/img/Woman%20day.png');
     background-size: 100%;
     background-repeat: repeat-x;
     Background-size: cover;
     text-align: center;
-    color: #fff;
+    color: #fff5f5;
     font-weight: 400;
     text-decoration: none;
+    text-shadow: 2px 3px 0px #1f032a;;
 }
-
+.item__left-post--frame2:hover{
+    background-image: linear-gradient(rgba(83, 79, 79, 0.575), rgba(83, 79, 79, 0.575), rgba(83, 79, 79, 0.575)),
+    url('https://web-group6.github.io/Beauty_group6/assets/img/Woman%20day.png');
+    border: 3px solid #551a8b;
+}
 .item__left-post--frame3 {
     flex: 1;
     padding: 30px 12px 10px 12px;
-    background-color: #ffffff;
-    background-image: linear-gradient(rgba(83, 79, 79, 0.575), rgba(83, 79, 79, 0.575), rgba(83, 79, 79, 0.575)),
+
+    background-image: 
         url('https://web-group6.github.io/Beauty_group6/assets/img/body.png');
     background-size: 100%;
     background-repeat: repeat-x;
     Background-size: cover;
     text-align: center;
-    color: #fff;
+    color: #fff5f5;
     font-weight: 400;
     text-decoration: none;
+    text-shadow: 2px 3px 0px #1f032a;;
 }
-
+.item__left-post--frame3:hover{
+    background-image: linear-gradient(rgba(83, 79, 79, 0.575), rgba(83, 79, 79, 0.575), rgba(83, 79, 79, 0.575)),
+    url('https://web-group6.github.io/Beauty_group6/assets/img/body.png');
+    border: 3px solid #551a8b;
+}
 h4 {
     font-size: 1.2rem;
 }
@@ -589,9 +608,11 @@ h4 {
     margin-top: 220px;
 
 }
-.trend__jennie--more:hover{
+
+.trend__jennie--more:hover {
     background-color: rgba(89, 28, 135, 0.3);
 }
+
 .trend__jennie--readmore {
     text-align: center;
     padding-top: 20px;
@@ -619,7 +640,7 @@ h4 {
     background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/jisooo.jpg');
     background-size: 100%;
     background-repeat: repeat-x;
-    Background-size:c  cover;
+    Background-size: c cover;
     text-align: center;
 }
 
@@ -645,9 +666,11 @@ h4 {
     margin-top: 200px;
 
 }
-.trend__minzy--more :hover{
+
+.trend__minzy--more :hover {
     background-color: rgba(89, 28, 135, 0.3);
 }
+
 .trend__minzy--readmore {
     text-align: center;
     padding-top: 20px;
@@ -663,7 +686,7 @@ h4 {
 }
 
 /*tìm kiếm hàng đầu*/
-.container-search{
+.container-search {
     border-bottom: 2px solid #333;
     padding-bottom: 10px;
 }
@@ -679,7 +702,7 @@ h4 {
 
 .container-search__dad {
     display: flex;
- 
+
     margin-left: 20px;
 
 }
@@ -822,7 +845,7 @@ h4 {
     margin-left: 0;
 }
 
-.container-search__right--item img:hover{
+.container-search__right--item img:hover {
     border: 3px solid #a681e9;
     cursor: pointer;
 }
@@ -846,8 +869,8 @@ h4 {
 
 .slide-inner {
     display: flex;
- 
-    
+
+
 }
 
 .slide-item {
@@ -860,14 +883,18 @@ h4 {
     height: 50%;
 }
 
-.slide-item img:hover{
+.slide-item img:hover {
     border: 3px solid #a681e9;
     cursor: pointer;
 }
 
 /*Footer*/
 #footer {
-    background-color: #edeae9;
+    background-image: linear-gradient(rgba(222, 202, 238, 0.575), rgba(117, 84, 146, 0.575), rgba(65, 8, 99, 0.575)),
+        url("/assets/img/trang_chu/footer.jpeg");
+    background-size: 100%;
+
+    
 }
 
 .footer-item {
@@ -880,7 +907,7 @@ h4 {
     margin: 0px auto 20px auto;
     margin-right: 40px;
     flex: 2;
-    border-right: 2px solid #333;
+
 
 }
 
@@ -916,44 +943,63 @@ h4 {
 
 .footer-left__Quick {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 10px;
+    padding-bottom: 30px;
+
 
 }
 
 .footer-left__Quick--item {
+    max-width: 350px;
+    flex: 1;
     line-height: 15px;
+    margin: 0 20px;
     text-align: center;
 }
 
-.footer-left__Quick--item h3,
-.footer-left__Quick--item {
-    font-size: 1.7rem;
-    font-weight: 400;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.footer-left__Quick--item h3
+{
+    color: #1f032a;
+ 
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-p,
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
 .footer-left__Quick p {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 30px;
+    color: #fbf2f2;
+    text-align: left;
 }
 
 .footer-left__slogan {
     background-color: #d1c1ef;
     padding: 2px 30px;
+   
     text-align: center;
-    font-size: 1.1rem;
-    line-height: 2.1rem;
+   
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 30px;
 }
-
+.footer-left__slogan h2{
+    padding: 0 50px;
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+    
+}
 hr {
     border: none;
     height: 2px;
-    color: #333;
-    background-color: #333;
+    color: #ffffff;
+    background-color: #ffffff;
 }
 
 .footer-left__end {
@@ -962,6 +1008,7 @@ hr {
     font-weight: 400;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1rem;
+    color: #fbf2f2;
 }
 
 
@@ -976,86 +1023,11 @@ hr {
 
 
 }
-
-/*Footer-right*/
-
-.footer-right {
-    margin-top: 20px;
-    flex: 1;
+.footer-left__end-right i{
+    color: #fbf2f2;
 }
 
-.footer-right__titel {
-    margin: 0px 10px;
 
-}
-
-.footer-right__titel h2 {
-    font-size: 2.2rem;
-    text-align: center;
-    line-height: 30px;
-    color: #ec7200;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.footer-right__contact h5 {
-    font-size: 1.3rem;
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 40px;
-    margin-bottom: 8px;
-}
-
-.footer-right__input {
-    margin-left: 10px;
-    border: 2px solid #333;
-    border-radius: 50px;
-    max-width: 380px;
-    min-height: 60px;
-    font-size: 1.2rem;
-}
-
-.message {
-    min-height: 180px;
-}
-
-.footer-right__input--item {
-    margin-left: 10px;
-    padding: 12px 10px;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    font-size: 1.1rem;
-
-}
-
-.footer-right__input:hover {
-    cursor: pointer;
-    color: #a681e9;
-}
-
-.footer-right-end {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 10px;
-}
-
-.footer-right-end__send {
-
-
-    margin: 30px 0px 20px 30px;
-    padding: 5px 10px;
-    border: 2px solid #333;
-    max-width: 80px;
-    min-height: 40px;
-    text-align: center;
-
-}
-
-.footer-right-end__send--sizeM {
-    text-decoration: none;
-    color: #000;
-    font-size: 1.2rem;
-    font-weight: 500;
-}
 
 /*Menu dọc--js*/
 .menuJS {
@@ -1100,9 +1072,11 @@ hr {
 
 
 }
-.menu-vertical__item a{
+
+.menu-vertical__item a {
     text-decoration: none;
 }
+
 .menu__item--content {
     text-decoration: none;
     font-size: 1.5rem;
