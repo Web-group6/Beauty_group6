@@ -201,7 +201,7 @@ transform: translateX(100%);
 .container-top {
     max-width: 100%;
     min-height: 300px;
-    background-image: url("/assets/img/abou-us_top.png");
+    background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/abou-us_top.png');
     background-size: 100%;
     background-repeat: repeat-x;
     Background-size: cover;
@@ -237,7 +237,7 @@ h1 {
     min-width: 47%;
     min-height: 400px;
     flex: 1;
-    background-image: url("/assets/img/abou-us_story.png");
+    background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/abou-us_story.png');
     background-size: 100%;
     background-repeat: repeat-x;
     Background-size: cover;
