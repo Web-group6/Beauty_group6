@@ -257,25 +257,25 @@ ul.menu__dad a:hover::after {
     }
 
     40.001% {
-        background-image: url(https://github.com/Web-group6/Beauty_group6/blob/master/assets/img/slideHome/33.png);
+        background-image: url('https://github.com/Web-group6/Beauty_group6/blob/master/assets/img/slideHome/33.png');
     }
 
     60% {
-        background-image: url(https://github.com/Web-group6/Beauty_group6/blob/master/assets/img/slideHome/33.png);
+         background-image: url('https://github.com/Web-group6/Beauty_group6/blob/master/assets/img/slideHome/33.png');
 
     }
 
     60.001% {
-        background-image: url(https://github.com/Web-group6/Beauty_group6/blob/master/assets/img/slideHome/4.png);
+        background-image: url('https://github.com/Web-group6/Beauty_group6/blob/master/assets/img/slideHome/4.png');
     }
 
     80% {
-        background-image: url(https://github.com/Web-group6/Beauty_group6/blob/master/assets/img/slideHome/4.png);
+        background-image: url('https://github.com/Web-group6/Beauty_group6/blob/master/assets/img/slideHome/4.png');
 
     }
 
     80.001% {
-        background-image: url(https://github.com/Web-group6/Beauty_group6/blob/master/assets/img/slideHome/5.png);
+        background-image: url('https://github.com/Web-group6/Beauty_group6/blob/master/assets/img/slideHome/5.png');
     }
 
     100% {
