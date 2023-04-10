@@ -554,7 +554,7 @@ h4 {
     margin-top: 10px;
     max-width: 210px;
     min-height: 270px;
-    background-image: url("/assets/img/jennie.png");
+    background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/jennie.png');
     background-size: 100%;
     background-repeat: repeat-x;
     Background-size: cover;
@@ -616,7 +616,7 @@ h4 {
     margin-bottom: 10px;
     max-width: 210px;
     min-height: 295px;
-    background-image: url(/assets/img/jisooo.jpg);
+    background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/jisooo.jpg');
     background-size: 100%;
     background-repeat: repeat-x;
     Background-size:c  cover;
