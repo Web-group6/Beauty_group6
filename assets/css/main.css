@@ -472,7 +472,7 @@ ul.menu__dad a:hover::after {
     padding: 30px 12px 10px 12px;
     background-color: #ffffff;
     background-image: linear-gradient(rgba(83, 79, 79, 0.575), rgba(83, 79, 79, 0.575), rgba(83, 79, 79, 0.575)),
-        url("/assets/img/hot\ makeup.png");
+        url('https://web-group6.github.io/Beauty_group6/assets/img/hot%20makeup.png');
     background-size: 100%;
     background-repeat: repeat-x;
     Background-size: cover;
@@ -487,7 +487,7 @@ ul.menu__dad a:hover::after {
     padding: 30px 12px 10px 12px;
     background-color: #ffffff;
     background-image: linear-gradient(rgba(83, 79, 79, 0.575), rgba(83, 79, 79, 0.575), rgba(83, 79, 79, 0.575)),
-        url("/assets/img/Woman\ day.png");
+        url('https://web-group6.github.io/Beauty_group6/assets/img/Woman%20day.png');
     background-size: 100%;
     background-repeat: repeat-x;
     Background-size: cover;
@@ -502,7 +502,7 @@ ul.menu__dad a:hover::after {
     padding: 30px 12px 10px 12px;
     background-color: #ffffff;
     background-image: linear-gradient(rgba(83, 79, 79, 0.575), rgba(83, 79, 79, 0.575), rgba(83, 79, 79, 0.575)),
-        url("/assets/img/body.png");
+        url('https://web-group6.github.io/Beauty_group6/assets/img/body.png');
     background-size: 100%;
     background-repeat: repeat-x;
     Background-size: cover;
