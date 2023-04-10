@@ -688,7 +688,7 @@ h4 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 420px;
+    width: 410px;
     padding-top: 550px;
     animation: search__side--img 15s infinite;
     min-height: 300px;
@@ -715,7 +715,7 @@ h4 {
     }
 
     20.001% {
-        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/t%C3%ACm%20ki%E1%BA%BFm%201.jpg);
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/t%C3%ACm%20ki%E1%BA%BFm%201.jpg');
     }
 
     40% {
@@ -724,11 +724,11 @@ h4 {
     }
 
     40.001% {
-        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/image.png');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/timkiem2.jpg');
     }
 
     60% {
-        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/image.png');
+        background-image: url('https://web-group6.github.io/Beauty_group6/assets/img/trang_chu/timkiem2.jpg');
 
     }
 
