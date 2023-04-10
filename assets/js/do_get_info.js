@@ -11,31 +11,36 @@ form.addEventListener("keyup", function(event) {
     }
 });
 
-function stepSetSinhVien() {
-    var DN = $.trim($("select[name='txtHo']").val());
-    if (DN == '') {
+function stepSetKhachHang() {
+    var Ho = $.trim($("input[name='txtHo']").val());
+    if (Ho == "") {
         alert("Vui lòng nhập Họ của bạn");
         return false;
     }
-    var DN = $.trim($("select[name='txtTen']").val());
-    if (DN == '') {
+    var Ten = $.trim($("input[name='txtTen']").val());
+    if (Ten == "") {
         alert("Vui lòng nhập tên của bạn");
         return false;
     }
-    var DN = $.trim($("input[name='txtEmail']").val());
-    if (DN == '') {
+    var email = $.trim($("input[name='txtEmail']").val());
+    if (email == "") {
         alert("Vui lòng nhập E-mail");
         return false;
     }
-    var masv = $.trim($("input[name='pass']").val());
-    if (masv == '') {
+    var pass = $.trim($("input[name='pass']").val());
+    if (pass == "") {
         alert("Bạn còn thiếu PassWord!");
         return false;
     }
-    var hoten = $.trim($("input[name='txtGioiTinh']").val());
-    if (hoten == '') {
+    var gioitinh = $.trim($("select[name='txtGioiTinh']").val());
+    if (gioitinh == "") {
         alert("Bạn chưa chọn giới tính");
         return false;
+    }
+    var gioitinh = $.trim($("select[name='txtGioiTinh']").val());
+    if (gioitinh !== "") {
+        alert("BẠN ĐÃ ĐĂNG KÝ THÀNH CÔNG!");
+        return true;
     }
     
     doLoading()
